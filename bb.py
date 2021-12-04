@@ -1161,49 +1161,49 @@ for i in range(0, len(banyanInput16)):
     print(shortenedReverseBinary, end=': ')
     # For w0
     if (banyanInput16[i].getPath()[-1] == 'w0'):
-        if(shortenedReverseBinary[2] == '0'):
+        if(shortenedReverseBinary[3] == '0'):
             banyanInput16[i].addToPath('w0 UP')
         else:
             banyanInput16[i].addToPath('w0 DOWN')
     # For w1
     if (banyanInput16[i].getPath()[-1] == 'w1'):
-        if(shortenedReverseBinary[2] == '0'):
+        if(shortenedReverseBinary[3] == '0'):
             banyanInput16[i].addToPath('w1 UP')
         else:
             banyanInput16[i].addToPath('w1 DOWN')
     # For w2
     if (banyanInput16[i].getPath()[-1] == 'w2'):
-        if(shortenedReverseBinary[2] == '0'):
+        if(shortenedReverseBinary[3] == '0'):
             banyanInput16[i].addToPath('w2 UP')
         else:
             banyanInput16[i].addToPath('w2 DOWN')
     # For w3
     if (banyanInput16[i].getPath()[-1] == 'w3'):
-        if(shortenedReverseBinary[2] == '0'):
+        if(shortenedReverseBinary[3] == '0'):
             banyanInput16[i].addToPath('w3 UP')
         else:
             banyanInput16[i].addToPath('w3 DOWN')
     # For w4
     if (banyanInput16[i].getPath()[-1] == 'w4'):
-        if(shortenedReverseBinary[2] == '0'):
+        if(shortenedReverseBinary[3] == '0'):
             banyanInput16[i].addToPath('w4 UP')
         else:
             banyanInput16[i].addToPath('w4 DOWN')
     # For w5
     if (banyanInput16[i].getPath()[-1] == 'w5'):
-        if(shortenedReverseBinary[2] == '0'):
+        if(shortenedReverseBinary[3] == '0'):
             banyanInput16[i].addToPath('w5 UP')
         else:
             banyanInput16[i].addToPath('w5 DOWN')
     # For w6
     if (banyanInput16[i].getPath()[-1] == 'w6'):
-        if(shortenedReverseBinary[2] == '0'):
+        if(shortenedReverseBinary[3] == '0'):
             banyanInput16[i].addToPath('w6 UP')
         else:
             banyanInput16[i].addToPath('w6 DOWN')
     # For w7
     if (banyanInput16[i].getPath()[-1] == 'w7'):
-        if(shortenedReverseBinary[2] == '0'):
+        if(shortenedReverseBinary[3] == '0'):
             banyanInput16[i].addToPath('w7 UP')
         else:
             banyanInput16[i].addToPath('w7 DOWN')
